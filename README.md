@@ -1,4 +1,4 @@
-# ludic-director
+# Ludic-Director
 
 Small, game-agnostic building blocks for a **layered AI director** that drives a live simulation via an **action queue** (consume actions on your main / sim thread only).
 
@@ -43,12 +43,6 @@ See [`examples/minimal_director/run.py`](examples/minimal_director/run.py) for a
 1. Implement `RuntimeView` (see [`ludic_director.runtime`](src/ludic_director/runtime.py)).
 2. On each simulation tick, drain `action_queue` and dispatch to your tool handlers.
 3. Pass prompt builders and optional `rule_based_combat` into `run_director_session`.
-
-[Gundai](https://github.com/PaulSantomauro/Gundai) uses this library with game-specific hooks.
-
-## Security
-
-Do not commit API keys or tokens. Pass keys via application config or the `OPENAI_API_KEY` environment variable. The `.gitignore` excludes common local secret filenames.
 
 ## License
 
