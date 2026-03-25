@@ -32,7 +32,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/PaulSantomauro/ludic-director"
+Homepage = "https://github.com/PaulSantomauro/Ludic_Director"
+Repository = "https://github.com/PaulSantomauro/Ludic_Director"
 
 [tool.hatch.build]
 sources = ["src"]

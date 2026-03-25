@@ -1,10 +1,4 @@
-"""
-Minimal fake game host: one combat layer with rule-based decisions only.
-
-Run from repo root:
-  pip install -e ".[openai]"
-  python examples/minimal_director/run.py
-"""
+"""Minimal host: `RuntimeView`, rule-based combat, threaded `run_director_session`."""
 from __future__ import annotations
 
 import queue
