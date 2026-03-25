@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment and secrets (never commit real values)
+.env
+.env.local
+.env.*.local
+secret.cfg
+credentials.json
+token.json
+*.pem
+id_rsa
+id_rsa.pub
+*.key
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
